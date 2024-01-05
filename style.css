@@ -1,0 +1,349 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+ font-family: 'Libre Baskerville', serif;
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    padding:20px;
+}
+nav{
+    flex:1;
+    text-align: right;   
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+   display: inline-block;
+    margin-right: 20px;  
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+p{
+    color:#303130;
+}
+.container{
+    max-width: 1300px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+        justify-content:space-around;
+    }
+.col-2{
+    flex-basis: 50%;
+    max-width: 300px;
+}
+.col2 img{
+    max-width: 100%;
+        padding: 100px 0;
+}
+.col-2 h1{
+    font-size:50px;    
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display:inline-block;
+    background: #ffe6e6;   
+    color:#555;
+    padding:8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #ffb3b3;
+}
+.header{
+    background-image: url("桌布.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:inherit;
+}
+.header.row{
+    margin-top: 70px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 1%;
+    min-width: 250px;
+    margin-bottom: 40px;
+}
+.small-container{
+    max-width: 1080px;
+        margin: auto;
+   padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 30px;
+    min-width: 100px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width:280px;
+    height:280px;
+    object-fit: cover;
+    
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position:relative;
+    line-height: 60px;
+    color: #555;
+}
+.title:after{
+    content: '';
+    background: #ff928e;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+h4{
+    color:#555;
+    font-weight: normal;    
+}
+.col-4 p{
+    font-size:14px;    
+}
+p.big {
+  line-height: 4;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);   
+}
+/*---------offer---------*/
+
+.col-2 img{
+    width:430px;
+    height:540px;
+    object-fit: cover;
+}
+
+small{
+    color:#555;
+}
+.row{
+    padding-top: 50px;
+}
+/*---------all products page-------*/
+
+
+
+
+
+
+
+
+
+/*------cart items------*/
+
+/*---------account-page---------*/
+
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#ffe6e6,#ffa6a6);
+}
+.form-container{
+    background:#fff;
+    width:300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0,1);
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+form input{
+    width: 100%;
+    height:30px;
+    margin: 10px 0;
+    padding:0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#LoginForm{
+    Left: -300px;
+}
+#RegForm{
+    Left: 0;
+}
+form a{
+    font-size: 12px;
+    
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff928e;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+/*---------payment-page---------*/
+.container1{
+    margin:0; padding:0;
+    box-sizing:border-box;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all.2s linear;
+}
+
+.container-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #ffe6e6 30%, #ffb3b3 70% );
+    padding-bottom: 70px;
+}
+
+.container form-6{
+    padding:20px;
+    width:700px;
+    background:#fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,1);
+}
+
+.container form .row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.container form .row .col{
+    flex:1 1 250px;   
+}
+
+.container form .row .col .title{
+    font-size: 20px;
+    color:#333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+    margin:15px 0;
+}
+
+.container form .row .col .inputBox span{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.container form .row .col .inputBox input{
+    width:100%;
+    border:1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+    border:1px solid #000;
+    
+}
+
+.container form .row .col .flex{
+    display:flex;
+    gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+    margin-top: 5px;
+}
+
+.container form .row .col .flex .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn{
+    width:100%;
+    padding:12px;
+    font-size: :17px;
+    background: #ff8080;
+    color:#fff;
+    margin-top:5px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
